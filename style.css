@@ -1,0 +1,24 @@
+ header {
+    display: flex;
+    color : white;
+    background-color: black;
+    justify-content: space-between;
+    height: 42px;
+    align-items: center;
+    padding: 16px;
+    box-shadow: 0px 6px 10px 0px rgba(71, 71, 71, 0.5);
+}
+ header ul {
+     display: flex;
+ }
+ header li {
+     margin-left: 30px
+ }
+ header li:first-child{
+     border-bottom: 2px solid red;
+     padding-bottom: 20px;
+ } 
+ .usuario {
+     display: flex;
+     align-items: center;
+ }
