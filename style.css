@@ -1,4 +1,5 @@
- * {
+/* General */
+* {
      box-sizing: border-box;
      padding-left: 3%;
      padding-right: 3%;
@@ -9,18 +10,25 @@
      margin: auto;
      overflow: hidden;
  }
- 
+ /* define header */
  header {
-    display: flex;
+    
     color : white;
     background-color: black;
-    justify-content: space-between;
-    align-items: center;
+    
     padding: 16px;
     box-shadow: 0px 6px 10px 0px rgba(71, 71, 71, 0.5);
     width: 100%;
     position: fixed;
-    left: 0;
+    left: 0px;
+}
+.iner-header{
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
  header ul {
      display: flex;
@@ -39,6 +47,17 @@
  h1{
      font-size: 30px;
  }
+ .usuario{
+     margin-bottom: 26px;
+ }
+ .usuario h2 {
+     font-size: 24px;
+     margin-bottom: 22px;
+     border-left: 2px solid green;
+     font-family: Arial, Helvetica, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+ }
  .usuario_2 {
      display: flex;
  }
@@ -50,3 +69,26 @@
  main {
      padding-top: 94px;
  }
+ /* Define portafolio */
+.portafolio h2{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 2px solid red;
+    margin-bottom: 25px;
+}
+.porta {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 37px;
+    margin-bottom: 25px;
+}
+.porta img {
+    width: 100%;
+    border: 10px solid #f0f0f0;
+}
+.porta-shadow:hover {
+    display: flex;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,23 +9,26 @@
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="wrapper">
         <header>
-            <h1>
+            <div class="iner-header">
+                <h1>
                     &#60Paolo Minaya/&#62
-            </h1>
-            <nav>
-            <ul>
-                <li> <a href="">Sobre mi</a>
-                    </li>
-                <li><a href="#porta">Portafolio</a>
-                    </li>
-                <li><a href="#habi">Habilidades</a>
-                    </li>
-                <li><a href="#conta">Contactarme</a>
-                    </li>
-            </ul>
+                </h1>
+                <nav>
+                    <ul>
+                        <li> <a href="">Sobre mi</a>
+                        </li>
+                        <li><a href="#porta">Portafolio</a>
+                        </li>
+                        <li><a href="#habi">Habilidades</a>
+                        </li>
+                        <li><a href="#conta">Contactarme</a>
+                        </li>
+                    </ul>
+            </div>
             </nav>
         </header>
         <main>
@@ -33,20 +37,38 @@
                     Sobre mi
                 </h2>
                 <div class="usuario_2">
-                <figure><img src="oval.png" alt="Paolo Minaya"></figure>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus officia similique commodi tempore, tempora ex nulla id est ut accusamus sint, nisi impedit molestiae animi porro libero. Optio, obcaecati maxime!</p>
+                    <figure><img src="oval.png" alt="Paolo Minaya"></figure>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus officia similique
+                        commodi tempore, tempora ex nulla id est ut accusamus sint, nisi impedit molestiae animi porro
+                        libero. Optio, obcaecati maxime!</p>
                 </div>
             </section>
             <section class="portafolio" id="porta">
                 <h2>
                     Portafolio
                 </h2>
-                <figure><img src="image.png" alt=""></figure>
-                <figure><img src="image.png" alt=""></figure>
-                <figure><img src="image (1).png" alt=""></figure>
-                <figure><img src="image (1).png" alt=""></figure>
-                <figure><img src="image (2).png" alt=""></figure>
-                <figure><img src="image (2).png" alt=""></figure>
+                <div class="porta">
+                    <div class="porta-image">
+                        <figure><img src="image.png" alt=""></figure>
+                        <div class="porta-shadow">
+                            <span>Proyecto</span>
+                            <p>Adopción de mascota</p>
+                            <span>Cliente</span>
+                            <p>Tecsup</p>
+                            <span>Tecnología usadas</span>
+                            <div>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <figure><img src="image.png" alt=""></figure>
+                    <figure><img src="image (1).png" alt=""></figure>
+                    <figure><img src="image (1).png" alt=""></figure>
+                    <figure><img src="image (2).png" alt=""></figure>
+                    <figure><img src="image (2).png" alt=""></figure>
+                </div>
             </section>
             <section class="habilidades" id="habi">
                 <h2>
@@ -186,6 +208,7 @@
         </footer>
 
     </div>
-    
+
 </body>
+
 </html>
